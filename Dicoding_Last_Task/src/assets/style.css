@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00FFAB;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 5px;
+    width: 70%;
+    padding: 0px 50px 5px;
+}
+
+body>header {
+    background-color: #E3FCBF;
+    width: 100%;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+nav ul li {
+    font-size: 20px;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    /* font-size: 25px; */
+    color: black;
+    text-decoration: none;
+}
+
+/* main */
+main {
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #B8F1B0;
+    width: max-content;
+    margin: auto;
+    border-radius: 5px;
+    border: groove black;
+    transition: 0.2s;
+    cursor:context-menu;
+    margin-bottom: 20px;
+}
+
+h2:hover {
+    color: #14C38E;
+    background-color: white;
+    border: groove #00FFAB
+}
+
+.all-content {
+    background-color: #E3FCBF;
+    padding: 100px 50px 40px 50px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#about #isi-content {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about p {
+    width: 50%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px 5px #B8F1B0;
+}
+
+#about img {
+    border-radius: 180px;
+    width: 200px;
+    box-shadow: 5px 5px 20px 5px #B8F1B0;
+    object-fit: cover;
+}
+
+.cv-button {
+    margin-top: 50px;
+    width: 10%;
+    border-radius: 180px;
+    background-color: #00FFAB;
+    border-style: none;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cv-button:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: #00FFAB;
+    font-weight: bold;
+    color: #00FFAB;
+    
+}
+
+#skill-list ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#skill-list ul li {
+    width: 150px;
+    padding: 80px 0;
+    border-radius: 20px;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#skill-list ul li:hover {
+    width: 160px;
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 5px 5px 20px 5px #B8F1B0;
+    border-radius: 5px;
+}
+#java{
+    overflow: hidden;
+    background: url("java.png");
+    background-size: cover;
+}
+
+#html {
+    background: url("html.png");
+    background-size: 140%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#css {
+    background: url("css.png");
+    background-size: 150%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#javascript {
+    background: url("Javascript.png");
+    background-size: 280%;
+    background-position: center center;
+}
+.skill-content{
+    background-color: #E3FCBF;
+}
+#contact {
+    text-align: center;
+    align-items: center;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+input, button{
+    width: max-content;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    margin: 5px;
+    transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button:hover{
+    color: white;
+    background-color: #14C38E;
+    border: groove #00FFAB;
+    cursor: pointer;
+}
+/* footer {
+    background: #14C38E;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+} */
+
+/* media screen 
+gambar di atas tulisan dibawah buat profile 
+
+*/
