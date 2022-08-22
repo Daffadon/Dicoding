@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/* Buat Aside dan main content biar ada jarak + padding left di aside */
+
+
+*{
+    box-sizing: border-box;
+}
+header{
+    display: inline;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    text-align: center;
+    background-color: #00c8eb;
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+}
+nav{
+    background-color: #00a2c6;
+    padding: 0.1mm;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+ul{
+    padding-left: 0%;
+}
+nav li{
+    padding:15px;
+    display: inline;
+    margin: 20px;
+    list-style-type: none;
+}
+nav a{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav a:hover, h1:hover{
+    font-weight: bold;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+#content{
+    float: left;
+    width: 75%;
+}
+h2,h3{
+    color: #00a2c6;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+.profile header{
+    text-align: center;
+}
+.featured-image{
+    width: 100%; 
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img{
+    width: 200px;
+    /* padding-right: 40px; */
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+/* #wisata > p{
+    max-width: 800px;
+    overflow: auto;
+    background-color: #00a2c6;
+    border: 3px solid black;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    margin: auto;
+} */
+
+
+/* Pseudo Selector 
+:Hover
+:Visited
+::after
+::before
+::first-letter
+*/
+
+/* Formatting Text atribute 
+font-family : font huruf
+font size : em px
+font weigth : bold bolder normal lighter
+font style : normal italic
+font variant :
+shorthand :style weight variant size font-family///// size font-family
+*/
+
+/* text syling 
+line height; text indent  
+text allignment : left right center justify
+*/
+
+/* text decoration
+under line; overline line-through; none
+*/
+
+/*text transform 
+capitalize lowercase uppercase
+*/
+
+/* word and letter spacing 
+letter-spacing; word-spacing
+*/
+
+/* Text Shadow
+text-shadow: horizontal (size) vertical(size) keburaman warna
+*/
+
+/* Color 
+color: rgb(xx,yy,zz);
+color: #xxxxx;
+color: hsl();
+color : black white blue
+backgroundcolor:
+*/
+
+/*Opacity 
+opacity: 0.5
+*/
+
+/* Box Dimension
+height:px % ems
+width:px % ems
+min-width:
+max-width:
+overflow : visible, hidden, scroll, auto
+*/
+
+/* Border
+border-width
+border-style
+border-color
+shorthand : width style color
+border-radius: px
+shorthand : top-right bottom-right bottom left top-left
+*/
+
+/* Centering
+margin: auto
+*/
+
+/* box-shadow */
+/* Positioning
+normal flow
+relative
+absolute
+fixed
+*/
+
+/* float
+left
+right
+left semua berurutan
+*/
+/* clear
+left, right, both
+*/
+
