@@ -6,23 +6,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="assets\style.css">
+    <title>Daffa Putra Narendra's Profile</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
 </head>
 
 <body>
     <header>
-        <h1>.dap.</h1>
+        <h1><a href="#">.dap.</a></h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <!-- <button class="about-list">About</button> -->
                 <li><a href="#study">Study</a></li>
                 <li><a href="#skill">Skill</a></li>
-                <!-- <li><a href="#social_media">Social Media</a></li> -->
                 <li><a href="#contact">Contact</a></li>
-                <li>Search</li>
+                <!-- <li>Search</li> -->
             </ul>
         </nav>
     </header>
@@ -31,27 +29,35 @@
             <article id="about" class="all-content">
                 <h2>ME</h2>
                 <div id="isi-content">
-                    <p> who am i? my name is daffa putra narendra. i'm one of those who learn programming to be a web
-                        developer. i'm still student anyways. this web is my personal web to write a diary time to time
-                        and
-                        for my portfolio defenitely. keep in touch with me guys.
-                        <br><br>
-                        <i>people believe what they want to believe and you have to believe yourself</i>
-                    </p>
                     <img src="assets\profile.jpg" alt="Profile Picture">
-                    <!-- foto diri pribadi -->
+                    <p id="isi-content-p"></p>
                 </div>
                 <button class="cv-button">CV</button>
             </article>
             <article id="study" class="all-content">
                 <h2>STUDY</h2>
                 <div id="study-list">
-                    <ul>
-                        <li>sd</li>
-                        <li>smp</li>
-                        <li>sma</li>
-                        <li>UB</li>
-                    </ul>
+                    <div class="slider-study">
+                        <img src="assets/sd.jpg" alt="">
+                        <div class="logo">
+                            <img src="assets/logosd.png" alt="">
+                        </div>
+                        <p>SDN KASOMALANG 1</p>
+                    </div>
+                    <div class="slider-study">
+                        <img src="assets/smp.jpg" alt="">
+                        <div class="logo">
+                            <img src="assets/logosmp.png" alt="">
+                        </div>
+                        <p>SMPN 1 SUBANG</p>
+                    </div>
+                    <div class="slider-study">
+                        <img src="assets/sma.jpg" alt="">
+                        <div class="logo">
+                            <img src="assets/logosma.png" alt="">
+                        </div>
+                        <p>SMAN 1 SUMEDANG</p>
+                    </div>
                 </div>
             </article>
             <article id="skill" class="all-content">
@@ -104,16 +110,30 @@
             </article>
         </div>
         <aside>
-            <article class="profile card">
+            <article >
                 <header>
                     <figure>
-                        <img src="" alt="">
+                        <img src="assets/aside_profile.jpeg" alt="Profile Picture" >
                         <figcaption>DAFFA PUTRA NARENDRA</figcaption>
                     </figure>
                 </header>
-                <p>lokasi</p>
-                <p>Hobi</p>
-                <p>motto</p>
+                <br>
+                <section id="border-profile">
+                    <table>
+                        <tr>
+                            <th>Lokasi</th>
+                            <td>Subang, Jawa Barat</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>Basket, Menonton Film</td>
+                        </tr>
+                        <tr>
+                            <th>Motto</th>
+                            <td><i>people believe what they want to believe and you have to believe yourself</i></td>
+                        </tr>
+                    </table>
+                </section>
             </article>
         </aside>
     </main>
@@ -124,8 +144,8 @@
             <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
         <p>Dicoding Web Development Beginner's Last Task &#169; 2022, Daffa Putra N.</p>
-        <!-- icon instagram, facebook twitter -->
     </footer>
+    <script src="profile.js"></script>
 </body>
 
 </html>
